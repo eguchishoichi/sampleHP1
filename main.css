@@ -1,4 +1,4 @@
-@charset "UTF-8";
+\@charset "UTF-8";
 html {
   width: 100%;
   margin: 0;
@@ -803,6 +803,14 @@ header .navbar {
 
 .access .position .sub-position {
   width: 45%;
+}
+
+.FAQ {
+  margin-bottom: 7vh;
+}
+
+.FAQ .accordion-body {
+  text-align: left;
 }
 
 .form-point {
