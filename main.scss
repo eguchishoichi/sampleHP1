@@ -369,7 +369,6 @@ header {
 }
 
 // news
-
 .news {
   margin-top: 7vh;
   .news-content {
@@ -689,6 +688,15 @@ header {
   }
 }
 
+
+// よくあるご質問
+.FAQ{
+  margin-bottom: 7vh;
+ .accordion-body{
+   text-align: left;
+ }
+}
+
 // contact
 .form-point {
   margin-top: 7vh;
@@ -812,17 +820,7 @@ header {
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+// レスポンシブ対応
 @media (max-width: 1100px) {
   .header {
     .header-content {
