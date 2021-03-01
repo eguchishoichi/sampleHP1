@@ -33,6 +33,11 @@ $('.access-bt').click(function() {
   $("html,body").animate({scrollTop:$(".access").offset().top});
 });
 
+$('.faq-bt').click(function() {
+  $("html,body").animate({scrollTop:$(".FAQ").offset().top});
+});
+
+
 $('.contact-bt').click(function() {
   $("html,body").animate({scrollTop:$(".contact").offset().top});
 });
